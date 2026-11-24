@@ -1,0 +1,18 @@
+MV MODS — site simples, SEM login (5 arquivos)
+
+  index.html / style.css / app.js  -> o site (suba estes 3 na Vercel ou GitHub Pages)
+  banco.sql                        -> o banco (cole no Supabase UMA vez; NAO suba no site)
+  LEIA-ME.txt                      -> este arquivo
+
+SO PRECISA DE UMA COISA:
+  Supabase > SQL Editor > New query > cole o banco.sql inteiro > Run.
+  (nao precisa ligar nem desligar nada em Authentication)
+
+PAINEL ADM: toque em "ADM" no topo > senha (inicial: 360).
+  Troque a senha: linha no fim do banco.sql.
+
+ENVIAR ARQUIVOS: toque em "Enviar" > escolha o arquivo > PRONTO > copie o link.
+  O amigo abre o link e baixa, sem conta. O link nao expira.
+  Limite por arquivo = o do Supabase (50 MB no gratis; aumente em Storage > Settings).
+  "Meus arquivos" fica salvo neste aparelho. Apagar remove o link; o arquivo em si
+  continua na pasta "files" do Supabase (apague la se quiser liberar espaco).
